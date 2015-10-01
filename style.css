@@ -12,6 +12,26 @@
 */
 
 
+/* links */
+
+a {
+	color: #3db9f1
+}
+a:visited {
+	color: #0a72a2;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:active,
+a:hover {
+	color: #ebebed;
+	outline: 0;
+}
+
+
 /**
 Basic Structure
  */
