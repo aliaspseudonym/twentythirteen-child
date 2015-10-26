@@ -335,8 +335,8 @@ ul.nav-menu .focus > ul,
 	display: block;
 	position: absolute;
 	width: 200px;
-	left: -220px;
-	top: 20px;
+	margin-left: -220px;
+	margin-top: 20px;
 }
 
 .entry-header {
@@ -432,6 +432,8 @@ ul.nav-menu .focus > ul,
 	hyphens:         auto;
 	word-wrap: break-word;
 }
+
+
 
 .entry-content a,
 .comment-content a {
@@ -573,6 +575,16 @@ ul.nav-menu .focus > ul,
  */
 
 @media (max-width: 1599px) {
+		.entry-thumbnail img {
+		float: left;
+		display: block;
+		margin-left: 50px;
+		clear: both;
+		margin-bottom: 20px;
+	}
+	.entry-header, .entry-meta {
+		text-align: right;
+	}
 	.site {
 		border: 0;
 	}
@@ -586,6 +598,7 @@ ul.nav-menu .focus > ul,
 	.content-area{
 	margin-left: 5%;
 	margin-right: 5%;
+	clear: both;
 	}
 	.site-footer {
 		margin-left: 5%;
@@ -594,6 +607,11 @@ ul.nav-menu .focus > ul,
 }
 
 @media (max-width: 767px) {
+
+		.entry-header, .entry-meta {
+		text-align: right;
+		clear:both;
+	}
 	#buttonrow {
 		height: 220px;
 		max-width: 325px;
